@@ -40,7 +40,7 @@ Git
 Installation
 
 Clone the repository
-bashgit clone https://github.com/yourusername/spring-boot-rest-api-demo.git
+bashgit clone https://github.com/berginiy/Crud-Java-Project.git
 cd spring-boot-rest-api-demo
 
 Build the project
@@ -158,14 +158,3 @@ The API uses standard HTTP status codes:
 400 - Bad Request (Validation error)
 404 - Not Found (Resource not found)
 500 - Internal Server Error
-
-🔧 Development
-Adding New Features
-
-Create entity in model/ package
-Create repository interface in repository/ package
-Implement business logic in service/ package
-Create REST controller in controller/ package
-
-Database Changes
-The application uses spring.jpa.hibernate.ddl-auto=create-drop, so the database schema is automatically created and dropped on application restart.
